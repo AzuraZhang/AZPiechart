@@ -1,0 +1,46 @@
+Name: Instances
+Id: g=113086a936b0b785442b78f0ca143c50
+Type: FolderType
+Children:
+- Name: Machine1
+  Type: Machine
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Blower"
+  - Name: Price
+    Id: g=af2b10cf4c36e7e07b6b9ba8488353a9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+- Name: Machine2
+  Type: Machine
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor"
+  - Name: Price
+    Id: g=d8598cf02b5d900cb4c9533462c731a7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 300
+- Name: Machine3
+  Type: Machine
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Dynamo"
+  - Name: Price
+    Id: g=86fa86d310b18e8b91531765737b16e6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
