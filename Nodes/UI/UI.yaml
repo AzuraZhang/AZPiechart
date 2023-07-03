@@ -236,7 +236,22 @@ Children:
       - Name: Opacity
         Type: BaseVariableType
         DataType: Float
-        Value: 100.0
+        Value: 50.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 180.0
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: false
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -263,18 +278,7 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{NodeId:ns=7;g=af2b10cf-4c36-e7e0-7b6b-9ba8488353a9}"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
+        Value: {"LocaleId":"en-US","Text":"Hello"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size

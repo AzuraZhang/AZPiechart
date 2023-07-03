@@ -12,7 +12,6 @@ Children:
     DataType: String
     Value: "Blower"
   - Name: Price
-    Id: g=af2b10cf4c36e7e07b6b9ba8488353a9
     Type: BaseDataVariableType
     DataType: Int32
     Value: 100
